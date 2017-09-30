@@ -200,7 +200,7 @@ h2 > span:not(.nocolor),
 h3 > span:not(.nocolor),
 h4 > span:not(.nocolor),
 h5 > span:not(.nocolor),
-h6 > span:not(.nocolor) { color: #1ABC9C; }
+h6 > span:not(.nocolor) { color: red; }
 
 p,
 pre,
@@ -1390,7 +1390,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 #primary-menu.style-3 > ul > li.current > a {
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-	background-color: #1ABC9C;
+	background-color: #3399ff;
 }
 
 
@@ -3511,7 +3511,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	background-color: #FFF;
 }
 
-#content p { line-height: 1.8; }
+#content p { line-height: 1.8;}
 
 .content-wrap {
 	position: relative;
@@ -6610,7 +6610,7 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
-	background-color: #1ABC9C;
+	background-color: #3399cc;
 	color: #FFF;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -6625,7 +6625,7 @@ body:not(.device-touch) .button {
 	transition: all .2s ease-in-out;
 }
 
-.button-dark { background-color: #444; }
+.button-dark { background-color: #3399cc; }
 
 .button-light {
 	background-color: #EEE;
@@ -7307,12 +7307,12 @@ body:not(.device-touch) .button.button-full strong {
 -----------------------------------------------------------------*/
 
 .promo.promo-light {
-	background-color: #F5F5F5;
+	background-color: #33ffcc;
 	border-radius: 3px;
 	padding-left: 30px;
 }
 
-.promo.promo-light a.button { right: 30px; }
+.promo.promo-light a.button { right: 30px; background: #3399cc}
 
 
 /* Promo - Dark
@@ -7515,12 +7515,13 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .feature-box h3 {
-	font-size: 16px;
+	font-size: 22px;
+	text-align: center;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-bottom: 0;
-	color: #333;
+	color: #3399ff;
 }
 
 .feature-box p {
@@ -10474,9 +10475,9 @@ blockquote.pull-right {
 	Text Rotater
 -----------------------------------------------------------------*/
 
-.text-rotater {}
+.text-rotater {color: red;font-size: 50px;text-transform: uppercase;font-family: "Nexa Light"}
 
-.text-rotater > .t-rotate > .animated { display: inline-block; }
+.text-rotater > .t-rotate > .animated { display: inline; }
 
 
 /* ----------------------------------------------------------------
