@@ -88,7 +88,40 @@
 	- Youtube Video Backgrounds
 
 ---------------------------------------------------------------- */
+/*---------------------------------------------------------------------
+	Gradient Button
+---------------------------------------------------------------------*/
 
+.rounded {
+  display: flex;
+  align-items: center;
+  justify-content: center 
+}
+
+.rounded .collection-item-label a {
+  position: relative;
+  margin : 0;
+  transform: translate(-50%, -50%) 
+  text-transform: uppercase;
+  color: black;
+  font-family: "Nexa Bold",sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  width: 205px;
+  max-width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-left: 3px solid #33ffcc;
+  border-right: 3px solid #3399cc;
+  display: block;
+  background-image: linear-gradient(90deg, #33ffcc, #3db9f1, #3399cc), linear-gradient(90deg, #33ffcc, #3db9f1, #3399cc);
+  background-size: 100% 2px;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+}
 
 
 /* ----------------------------------------------------------------
@@ -1012,7 +1045,7 @@ body.stretched #header.full-header .container {
 }
 
 #header.full-header #logo {
-	padding-bottom: 10px;
+	/*padding-bottom: 10px;*/
 	padding-right: 30px;
 	margin-right: 30px;
 	border-right: 1px solid #EEE;
